@@ -1,0 +1,8 @@
+янв. 17, 2023 10:39:04 PM Presenter resultRational
+INFO: 
+3,00
+
+янв. 17, 2023 10:39:24 PM Presenter resultRational
+INFO: 
+3,60
+

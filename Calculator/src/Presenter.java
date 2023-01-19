@@ -66,52 +66,52 @@ public class Presenter {
                         case 3:
                             break;
                     }
-//                    break;
-//                case 2:
-//                    System.out.println("Choose any variant: \n1:Rational\n2:Complex\n3:<--Previous");
-//                    switch (in.nextInt()) {
-//                        case 1:
-//                            p = new Presenter(new View(), new SubtractionModel());
-//                            p.resultRational();
-//                            break;
-//                        case 2:
-//                            p = new Presenter(new View(), new SubtractionModel());
-//                            p.resultComplex();
-//                            break;
-//                        case 3:
-//                            break;
-//                    }
-//                    break;
-//                case 3:
-//                    System.out.println("Choose any variant: \n1:Rational\n2:Complex\n3:<--Previous");
-//                    switch (in.nextInt()) {
-//                        case 1:
-//                            p = new Presenter(new View(), new MultiplyModel());
-//                            p.resultRational();
-//                            break;
-//                        case 2:
-//                            p = new Presenter(new View(), new MultiplyModel());
-//                            p.resultComplex();
-//                            break;
-//                        case 3:
-//                            break;
-//                    }
-//                    break;
-//                case 4:
-//                    System.out.println("Choose any variant: \n1:Rational\n2:Complex\n3:<--Previous");
-//                    switch (in.nextInt()) {
-//                        case 1:
-//                            p = new Presenter(new View(), new DivideModel());
-//                            p.resultRational();
-//                            break;
-//                        case 2:
-//                            p = new Presenter(new View(), new DivideModel());
-//                            p.resultComplex();
-//                            break;
-//                        case 3:
-//                            break;
-//                    }
-//                    break;
+                    break;
+                case 2:
+                    System.out.println("Choose any variant: \n1:Rational\n2:Complex\n3:<--Previous");
+                    switch (in.nextInt()) {
+                        case 1:
+                            p = new Presenter(new View(), new SubtractionModel());
+                            p.resultRational();
+                            break;
+                        case 2:
+                            p = new Presenter(new View(), new SubtractionModel());
+                            p.resultComplex();
+                            break;
+                        case 3:
+                            break;
+                    }
+                    break;
+                case 3:
+                    System.out.println("Choose any variant: \n1:Rational\n2:Complex\n3:<--Previous");
+                    switch (in.nextInt()) {
+                        case 1:
+                            p = new Presenter(new View(), new MultiplyModel());
+                            p.resultRational();
+                            break;
+                        case 2:
+                            p = new Presenter(new View(), new MultiplyModel());
+                            p.resultComplex();
+                            break;
+                        case 3:
+                            break;
+                    }
+                    break;
+                case 4:
+                    System.out.println("Choose any variant: \n1:Rational\n2:Complex\n3:<--Previous");
+                    switch (in.nextInt()) {
+                        case 1:
+                            p = new Presenter(new View(), new DivideModel());
+                            p.resultRational();
+                            break;
+                        case 2:
+                            p = new Presenter(new View(), new DivideModel());
+                            p.resultComplex();
+                            break;
+                        case 3:
+                            break;
+                    }
+                    break;
                 default:
                     b = false;
             }

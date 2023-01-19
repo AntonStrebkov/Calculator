@@ -8,7 +8,6 @@ class Rational { //extends Numbers
     }
 
     public Rational() {
-//        this(0);
     }
 
     public double getReal() {
